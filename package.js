@@ -1,6 +1,6 @@
 Package.describe({
   name: 'netanelgilad:ng-infinite-scroll',
-  version: '1.2.0',
+  version: '1.2.0_1',
   // Brief, one-line summary of the package.
   summary: 'Infinite Scrolling for AngularJS',
   // URL to the Git repository containing the source code for this package.
@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.1');
-  api.use('angularjs:angular@1.3.15', 'client');
+  api.use('angular:angular@1.3.15', 'client');
   api.addFiles('ng-infinite-scroll.js', 'client');
 });
 
